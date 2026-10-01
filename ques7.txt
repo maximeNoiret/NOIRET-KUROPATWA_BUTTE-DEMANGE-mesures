@@ -1,0 +1,3 @@
+Question 7.
+
+La validité des métriques de Halstead peut être mise en doute car certains caractères dans le code ne permettent pas de savoir si on doit les traiter comme des opérandes ou des opérateurs. Ceci peut fausser les calculs et donc mettre en doute la validité des métriques.
