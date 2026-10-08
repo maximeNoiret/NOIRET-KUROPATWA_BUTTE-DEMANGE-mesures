@@ -1,0 +1,7 @@
+1. Sur quoi évaluer la complexité ?
+Sur le travail nécessaire de chaque élément : le nombre de champs, de contrôles et l'accès aux données.
+2. Comment trouver les importances relatives ?
+On compare les éléments entre eux, par ex. : « lui demande 2 fois plus de travail que lui », on peut aussi demander l'avis de devs expérimentés et on regarde le temps pris sur les projets passés.
+3. Comment traduire ça en poids ?
+On classe d'abord les éléments (simple, moyen, difficile), puis on donne un nombre à chaque niveau. Il est difficile de déterminer les poids car s'ils sont mal choisis, alors le résultat risque d'être faux.
+4. Exemple du site web : non, les écrans ne se valent pas. Une alerte « saisie incorrecte » affiche seulement un message, donc elle est simple, tandis qu'un formulaire demande des champs, des vérifications et un enregistrement, donc il demande 2 à 3 fois plus de travail.
