@@ -1,3 +1,3 @@
-Le tableau entier est à 0 puisque l'indicateur UFC permet de voir la compléxité d'un point de vue EXTERNE, peut importe la compléxité du code lui-même.
+Le tableau entier est à 0 puisque l'indicateur UFC permet de voir la complexité d'un point de vue EXTERNE, peu importe la complexité du code lui-même.
 
 Donc utiliser cet indicateur pour des fonctions pur (comme iqsort0) n'est pas efficace.
