@@ -1,0 +1,26 @@
+/**
+*	@author Adam KUROPATWA--BUTTE
+*	@date 10/08/2026
+*	@brief Sorts an array of integers using the QuickSort algorithm
+*	@param [in,out] a The array to sort
+*       @param [in]     n The number of elements to sort
+*/
+
+void iqsort0 ( int *a , int n )
+{
+	int i , j ;
+	// If n is 0 or 1, there is nothing to sort. Early exit.
+	if ( n <=1)
+		return ;
+	// scan the array starting at the element 1 and j mark the end of the zone of element smaller than the pivot
+	for ( i = 1 , j = 0; i < n ; i ++)
+		// if current element smaller than the pivot move it  to the left zone
+		if ( a [ i ] < a [0])
+			swap (++ j , i , a );
+			// put the pivot in the final position between the the 2 zone
+	swap (0 , j , a );
+	// Recursive call on the left part (elements < pivot)
+	iqsort0 (a , j );
+	// Recursive call on the right part (elements >= pivot)
+	iqsort0 ( a + j +1 , n -j -1);
+}
