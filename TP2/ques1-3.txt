@@ -1,0 +1,3 @@
+Pour calculer 11 niveaux d'énergies différents, il faudrait tourner l'experience 11 fois.
+
+Pour le calculer, on peut utiliser un facteur multiplicatif.
